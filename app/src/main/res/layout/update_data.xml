@@ -73,6 +73,48 @@
         android:paddingEnd="12dp"
         android:inputType="text" />
 
+    <!-- Alamat Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat villa"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/white"
+        android:hint="Lokasi villa"
+        android:inputType="number"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <!-- Kabupaten Field (DROPDOWN) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kabupaten"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/white"
+        android:hint="Kabupaten"
+        android:inputType="number"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
     <!-- Harga Field -->
     <TextView
         android:layout_width="wrap_content"
