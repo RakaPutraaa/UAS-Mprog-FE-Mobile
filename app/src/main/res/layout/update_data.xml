@@ -1,0 +1,106 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F6FA">
+
+    <!-- Area edit Foto -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/roundstyle">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/uploadicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="foto"
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Nama Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Villa"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Nama villa"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="text" />
+
+    <!-- Deskripsi Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Deskripsi..."
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:inputType="text" />
+
+    <!-- Harga Field -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga sewa"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        android:layout_marginBottom="4dp"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/white"
+        android:hint="Rp. 00.000"
+        android:inputType="number"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <!-- Button Buat Akun -->
+    <Button
+        android:backgroundTint="#2563EB"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:text="Simpan perubahan data"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>
